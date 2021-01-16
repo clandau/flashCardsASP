@@ -9,7 +9,7 @@ using FlashCardsAPI.Models;
 
 namespace FlashCardsAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/FlashCards")]
     [ApiController]
     public class FlashCardsController : ControllerBase
     {
