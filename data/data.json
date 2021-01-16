@@ -1,0 +1,20 @@
+[
+  {
+      "id": 1,
+      "sideA": "unary function",
+      "sideB": "accepts only one argument. Also known as an monadic function",
+      "category": "JavaScript"
+  },
+  {
+      "id": 2,
+      "sideA": "higher order function",
+      "sideB": "accepts another function as an argument or returns a function as a return value",
+      "category": "JavaScript"
+  },
+  {
+      "id": 3,
+      "sideA": "currying",
+      "sideB": "Currying is the process of taking a function with multiple arguments and turning it into a sequence of functions each with only a single argument.",
+      "category": "JavaScript"
+  }
+]
