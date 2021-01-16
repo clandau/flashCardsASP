@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cel-learnics/Develop/github/FlashCardsAPI/FlashCardsAPI.csproj": {}
+    "/Users/cel-learnics/Develop/github/FlashCardsAPI/FlashCardsApi.csproj": {}
   },
   "projects": {
-    "/Users/cel-learnics/Develop/github/FlashCardsAPI/FlashCardsAPI.csproj": {
+    "/Users/cel-learnics/Develop/github/FlashCardsAPI/FlashCardsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cel-learnics/Develop/github/FlashCardsAPI/FlashCardsAPI.csproj",
-        "projectName": "FlashCardsAPI",
-        "projectPath": "/Users/cel-learnics/Develop/github/FlashCardsAPI/FlashCardsAPI.csproj",
+        "projectUniqueName": "/Users/cel-learnics/Develop/github/FlashCardsAPI/FlashCardsApi.csproj",
+        "projectName": "FlashCardsApi",
+        "projectPath": "/Users/cel-learnics/Develop/github/FlashCardsAPI/FlashCardsApi.csproj",
         "packagesPath": "/Users/cel-learnics/.nuget/packages/",
         "outputPath": "/Users/cel-learnics/Develop/github/FlashCardsAPI/obj/",
         "projectStyle": "PackageReference",
@@ -69,6 +69,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
