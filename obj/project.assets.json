@@ -9168,9 +9168,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cel-learnics/Develop/github/FlashCardsAPI/FlashCardsApi.csproj",
-      "projectName": "FlashCardsApi",
-      "projectPath": "/Users/cel-learnics/Develop/github/FlashCardsAPI/FlashCardsApi.csproj",
+      "projectUniqueName": "/Users/cel-learnics/Develop/github/FlashCardsAPI/FlashCardsAPI.csproj",
+      "projectName": "FlashCardsAPI",
+      "projectPath": "/Users/cel-learnics/Develop/github/FlashCardsAPI/FlashCardsAPI.csproj",
       "packagesPath": "/Users/cel-learnics/.nuget/packages/",
       "outputPath": "/Users/cel-learnics/Develop/github/FlashCardsAPI/obj/",
       "projectStyle": "PackageReference",

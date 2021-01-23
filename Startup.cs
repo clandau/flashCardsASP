@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using FlashCardsAPI.Models;
 
 namespace FlashCardsAPI
@@ -20,9 +20,13 @@ namespace FlashCardsAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // requires using Microsoft.Extensions.Options
+            services.Configure<FlashCardsDatabaseSettings>(
+                Configuration.GetSection(nameof(FlashCardsDatabaseSettings)));
 
-            services.AddDbContext<FlashCardContext>(opt =>
-                                               opt.UseInMemoryDatabase("FlashCardList"));
+            services.AddSingleton<IFlashCardsDatabaseSettings>(sp =>
+                sp.GetRequiredService<IOptions<FlashCardsDatabaseSettings>>().Value);
+
             services.AddControllers();
         }
 

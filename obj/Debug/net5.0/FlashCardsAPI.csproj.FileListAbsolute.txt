@@ -136,3 +136,12 @@
 /Users/cel-learnics/Develop/github/FlashCardsAPI/bin/Debug/net5.0/runtimes/win-arm/lib/net5.0/dotnet-aspnet-codegenerator-design.exe
 /Users/cel-learnics/Develop/github/FlashCardsAPI/bin/Debug/net5.0/runtimes/win-arm64/lib/net5.0/dotnet-aspnet-codegenerator-design.exe
 /Users/cel-learnics/Develop/github/FlashCardsAPI/bin/Debug/net5.0/data/data.json
+/Users/cel-learnics/Develop/github/FlashCardsAPI/bin/Debug/net5.0/DnsClient.dll
+/Users/cel-learnics/Develop/github/FlashCardsAPI/bin/Debug/net5.0/MongoDB.Bson.dll
+/Users/cel-learnics/Develop/github/FlashCardsAPI/bin/Debug/net5.0/MongoDB.Driver.dll
+/Users/cel-learnics/Develop/github/FlashCardsAPI/bin/Debug/net5.0/MongoDB.Driver.Core.dll
+/Users/cel-learnics/Develop/github/FlashCardsAPI/bin/Debug/net5.0/MongoDB.Libmongocrypt.dll
+/Users/cel-learnics/Develop/github/FlashCardsAPI/bin/Debug/net5.0/SharpCompress.dll
+/Users/cel-learnics/Develop/github/FlashCardsAPI/bin/Debug/net5.0/runtimes/win/native/libzstd.dll
+/Users/cel-learnics/Develop/github/FlashCardsAPI/bin/Debug/net5.0/runtimes/win/native/snappy32.dll
+/Users/cel-learnics/Develop/github/FlashCardsAPI/bin/Debug/net5.0/runtimes/win/native/snappy64.dll
