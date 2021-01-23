@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using FlashCardsAPI.Models;
+using FlashCardsAPI.Services;
 
 namespace FlashCardsAPI
 {
@@ -26,6 +27,8 @@ namespace FlashCardsAPI
 
             services.AddSingleton<IFlashCardsDatabaseSettings>(sp =>
                 sp.GetRequiredService<IOptions<FlashCardsDatabaseSettings>>().Value);
+            
+            services.AddSingleton<FlashCardService>();
 
             services.AddControllers();
         }
