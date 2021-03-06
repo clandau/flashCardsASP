@@ -1,9 +1,9 @@
 [
   {
-      "id": 1,
-      "sideA": "unary function",
-      "sideB": "accepts only one argument. Also known as an monadic function",
-      "category": "JavaScript"
+      "Id": 1,
+      "SideA": "unary function",
+      "SideB": "accepts only one argument. Also known as an monadic function",
+      "Category": "JavaScript"
   },
   {
       "id": 2,
